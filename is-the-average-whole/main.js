@@ -10,3 +10,19 @@ function isTheAverageWhole(numbersArray) {
     return false;
   }
 }
+
+alternative solutions:
+
+(1)
+
+return number.isInteger(average); // shortest/best answer
+
+(2)
+
+if (sum % 1) {  // called "modulus"
+  return true;
+} else {
+  return false;
+}
+
+Note: (sum % 2) could check for odd/even
