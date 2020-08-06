@@ -22,3 +22,15 @@ https://love2dev.com/blog/javascript-remove-from-array/#remove-from-array-splice
 // incrementing & splice: This works if you only want to remove a single item. If you want to remove multiple items that match your criteria there is a glitch.
 // As the items are removed from the array the index still increments and the next item after your matched value is skipped.
 // The simple solution is to modify the above example to decrement the index variable so it does not skip the next item in the array.
+
+alternative solution:
+
+function removeNullValues(array) {
+  var newArr = [];
+  for (var i = 0; i < array.length; i++) {
+    if(array[i] !== null) {
+    newArr.push(array[i])
+  }
+}
+  return newArr;
+}
