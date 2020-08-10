@@ -1,12 +1,8 @@
 /*
-
 takes in a string word as an argument and returns an array in which the word is spelled out by adding a letter for each index until the word is completed
-
 1. run through the word from first character to the last
 2. identify the character
 3. put that as an item in an array and add that item in placeholder
-
-
 */
 
 
