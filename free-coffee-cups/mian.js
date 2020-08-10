@@ -8,3 +8,18 @@ function freeCoffeeCups(coffeeCups) {
   var freeCups = Math.trunc(coffeeCups / 6);
   return coffeeCups + freeCups;
 }
+
+/*
+alternative:
+
+function freeCoffeeCups(coffeeCups) {
+  var freeCups = 0;
+  for (var i = 0; i <= freeCups; i++) {
+    if (i % 6 === 0 && i) {
+      freeCups ++
+    }
+  }
+  return cups + freeCups;
+}
+
+*/
