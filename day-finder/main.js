@@ -17,5 +17,8 @@ function dayFinder(stringDate) {
   ];
   var dayOfTheWeek = new Date(stringDate).getDay();
   return days[dayOfTheWeek];
-  getDay()
 }
+
+console.log(dayFinder('05/22/1946'))
+console.log(dayFinder('01/20/2001'))
+console.log(dayFinder('03/25/1988'))
