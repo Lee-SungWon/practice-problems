@@ -7,3 +7,7 @@ function getWordCount (str) {
   }
   return spaces + 1;
 }
+// with split method:
+// function getWordCount2(str) {
+// retrun str.split(' ').length;
+// }
