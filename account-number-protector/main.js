@@ -7,6 +7,16 @@ function accountNumberProtector(cardNumberString) {
   return lastFourDigits;
 }
 
+/* better way
+
+function accountNumberProtector(cardNumberString) {
+  let lastFourDigits = '**';
+  for (let i = cardNumberString.length - 4; i < cardNumberString.length; i++) {
+    lastFourDigits += cardNumberString[i];
+  }
+  return lastFourDigits;
+}
+
 /* alternatives
 
 const accountNumberProtector = cardNumberString => {
